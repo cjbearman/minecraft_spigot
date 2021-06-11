@@ -1,0 +1,7 @@
+/worldborder center ~0 ~0
+/worldborder set 2500
+/chunky worldborder
+/chunky start
+.. Wait for chunky to finish, see logs
+/dynmap fullrender world:surface
+
