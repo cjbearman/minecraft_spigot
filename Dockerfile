@@ -1,6 +1,6 @@
-ARG j_version=15
+ARG j_version=16
 FROM adoptopenjdk/openjdk${j_version}:alpine
-ARG mc_version=1.16.5
+ARG mc_version=1.17
 RUN apk add --no-cache bash wget && \
     mkdir -p /opt/minecraft /data/plugins && \
     wget -q "https://cdn.getbukkit.org/spigot/spigot-${mc_version}.jar" -O /opt/minecraft/spigot.jar
